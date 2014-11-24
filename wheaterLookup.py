@@ -6,7 +6,7 @@ import ipgetter
 import xml.etree.ElementTree as ET
 
 
-api_key = 'b9a1a4f176b6b08a35f874845332f54eae3ec9708f43baec9e048587194fda63'
+api_key = '<your api-key'
 my_ip = ipgetter.myip()
 baseurl = 'http://api.ipinfodb.com/v3/ip-city/'
 url = baseurl + "?key=" + api_key + "&ip=" + my_ip + "&format=json"
